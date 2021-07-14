@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <ProjectGuid>{{42811668-cb8e-46a5-b4c2-44cd950d109c}}</ProjectGuid>
+    <ProjectGuid>{42811668-CB8E-46A5-B4C2-44CD950D109C}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>

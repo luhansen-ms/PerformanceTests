@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <ProjectGuid>{{cd55af11-0948-4539-9372-5aef7b470a93}}</ProjectGuid>
+    <ProjectGuid>{CD55AF11-0948-4539-9372-5AEF7B470A93}</ProjectGuid>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
