@@ -1,0 +1,184 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{{873e1342-c1dd-4290-8d09-06aa8de692b5}}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>Lib0002</RootNamespace>
+    <AssemblyName>Lib0002</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="..\Source0001.cs" />
+    <Compile Include="..\Source0002.cs" />
+    <Compile Include="..\Source0003.cs" />
+    <Compile Include="..\Source0004.cs" />
+    <Compile Include="..\Source0005.cs" />
+    <Compile Include="..\Source0006.cs" />
+    <Compile Include="..\Source0007.cs" />
+    <Compile Include="..\Source0008.cs" />
+    <Compile Include="..\Source0009.cs" />
+    <Compile Include="..\Source0010.cs" />
+    <Compile Include="..\Source0011.cs" />
+    <Compile Include="..\Source0012.cs" />
+    <Compile Include="..\Source0013.cs" />
+    <Compile Include="..\Source0014.cs" />
+    <Compile Include="..\Source0015.cs" />
+    <Compile Include="..\Source0016.cs" />
+    <Compile Include="..\Source0017.cs" />
+    <Compile Include="..\Source0018.cs" />
+    <Compile Include="..\Source0019.cs" />
+    <Compile Include="..\Source0020.cs" />
+    <Compile Include="..\Source0021.cs" />
+    <Compile Include="..\Source0022.cs" />
+    <Compile Include="..\Source0023.cs" />
+    <Compile Include="..\Source0024.cs" />
+    <Compile Include="..\Source0025.cs" />
+    <Compile Include="..\Source0026.cs" />
+    <Compile Include="..\Source0027.cs" />
+    <Compile Include="..\Source0028.cs" />
+    <Compile Include="..\Source0029.cs" />
+    <Compile Include="..\Source0030.cs" />
+    <Compile Include="..\Source0031.cs" />
+    <Compile Include="..\Source0032.cs" />
+    <Compile Include="..\Source0033.cs" />
+    <Compile Include="..\Source0034.cs" />
+    <Compile Include="..\Source0035.cs" />
+    <Compile Include="..\Source0036.cs" />
+    <Compile Include="..\Source0037.cs" />
+    <Compile Include="..\Source0038.cs" />
+    <Compile Include="..\Source0039.cs" />
+    <Compile Include="..\Source0040.cs" />
+    <Compile Include="..\Source0041.cs" />
+    <Compile Include="..\Source0042.cs" />
+    <Compile Include="..\Source0043.cs" />
+    <Compile Include="..\Source0044.cs" />
+    <Compile Include="..\Source0045.cs" />
+    <Compile Include="..\Source0046.cs" />
+    <Compile Include="..\Source0047.cs" />
+    <Compile Include="..\Source0048.cs" />
+    <Compile Include="..\Source0049.cs" />
+    <Compile Include="..\Source0050.cs" />
+    <Compile Include="..\Source0051.cs" />
+    <Compile Include="..\Source0052.cs" />
+    <Compile Include="..\Source0053.cs" />
+    <Compile Include="..\Source0054.cs" />
+    <Compile Include="..\Source0055.cs" />
+    <Compile Include="..\Source0056.cs" />
+    <Compile Include="..\Source0057.cs" />
+    <Compile Include="..\Source0058.cs" />
+    <Compile Include="..\Source0059.cs" />
+    <Compile Include="..\Source0060.cs" />
+    <Compile Include="..\Source0061.cs" />
+    <Compile Include="..\Source0062.cs" />
+    <Compile Include="..\Source0063.cs" />
+    <Compile Include="..\Source0064.cs" />
+    <Compile Include="..\Source0065.cs" />
+    <Compile Include="..\Source0066.cs" />
+    <Compile Include="..\Source0067.cs" />
+    <Compile Include="..\Source0068.cs" />
+    <Compile Include="..\Source0069.cs" />
+    <Compile Include="..\Source0070.cs" />
+    <Compile Include="..\Source0071.cs" />
+    <Compile Include="..\Source0072.cs" />
+    <Compile Include="..\Source0073.cs" />
+    <Compile Include="..\Source0074.cs" />
+    <Compile Include="..\Source0075.cs" />
+    <Compile Include="..\Source0076.cs" />
+    <Compile Include="..\Source0077.cs" />
+    <Compile Include="..\Source0078.cs" />
+    <Compile Include="..\Source0079.cs" />
+    <Compile Include="..\Source0080.cs" />
+    <Compile Include="..\Source0081.cs" />
+    <Compile Include="..\Source0082.cs" />
+    <Compile Include="..\Source0083.cs" />
+    <Compile Include="..\Source0084.cs" />
+    <Compile Include="..\Source0085.cs" />
+    <Compile Include="..\Source0086.cs" />
+    <Compile Include="..\Source0087.cs" />
+    <Compile Include="..\Source0088.cs" />
+    <Compile Include="..\Source0089.cs" />
+    <Compile Include="..\Source0090.cs" />
+    <Compile Include="..\Source0091.cs" />
+    <Compile Include="..\Source0092.cs" />
+    <Compile Include="..\Source0093.cs" />
+    <Compile Include="..\Source0094.cs" />
+    <Compile Include="..\Source0095.cs" />
+    <Compile Include="..\Source0096.cs" />
+    <Compile Include="..\Source0097.cs" />
+    <Compile Include="..\Source0098.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

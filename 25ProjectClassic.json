@@ -1,0 +1,10 @@
+{
+  "seed": 30000,
+  "name": "25ProjectClassic",
+  "targetFramework": "net5.0-windows",
+  "appTemplate": "Root.Classic",
+  "libraryTemplate": "Lib.Classic",
+  "numberOfProjects": 25,
+  "numberOfSourceFiles": [ 10, 2500 ],
+  "numberOfMethods": [ 10, 25 ]
+}
