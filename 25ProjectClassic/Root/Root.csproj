@@ -1,9 +1,9 @@
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{{82ca4c95-345b-4d29-8cec-8c9a3c87ce36}}</ProjectGuid>
+    <ProjectGuid>{82CA4C95-345B-4D29-8CEC-8C9A3C87CE36}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Root</RootNamespace>
     <AssemblyName>Root</AssemblyName>

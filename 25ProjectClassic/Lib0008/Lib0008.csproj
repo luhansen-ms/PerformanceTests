@@ -1,9 +1,9 @@
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{{3a2799ab-b0c6-41a9-85c5-43e91d298374}}</ProjectGuid>
+    <ProjectGuid>{3A2799AB-B0C6-41A9-85C5-43E91D298374}</ProjectGuid>
     <OutputType>library</OutputType>
     <RootNamespace>Lib0008</RootNamespace>
     <AssemblyName>Lib0008</AssemblyName>
