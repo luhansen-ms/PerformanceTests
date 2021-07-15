@@ -82,7 +82,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="..\Source0001.cs" />
     <Compile Include="..\Source0002.cs" />
     <Compile Include="..\Source0003.cs" />
     <Compile Include="..\Source0004.cs" />
