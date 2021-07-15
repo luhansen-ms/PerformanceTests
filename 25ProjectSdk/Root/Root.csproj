@@ -99,6 +99,10 @@
       <Project>{307e8cd4-6225-46f2-99c5-e8925d29eb88}</Project>
       <Name>Lib0023</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Lib0024\Lib0024.csproj">
+      <Project>{833d2579-0a3d-4903-8607-c218c8ff293a}</Project>
+      <Name>Lib0024</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Source0002.cs" />
